@@ -1,2 +1,2 @@
 # Magnolia
-Business ERP for steel manufacture
+Business ERP with flask framework
