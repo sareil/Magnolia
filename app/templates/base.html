@@ -1,0 +1,17 @@
+<html>
+  <head>
+    {% if title %}
+    <title>{{title}} - magnolia</title>
+    {% else %}
+    <title>magnolia</title>
+    {% endif %}
+  </head>
+  <body>
+    <div>Magnolia: <a href="/main">Home</a></div>
+    |<a href="/user">User</a>
+    |<a href="/product">Product</a>
+    |<a href="/order">Order</a>
+    <hr>
+    {% block content %}{% endblock %}
+  </body>
+</html>
